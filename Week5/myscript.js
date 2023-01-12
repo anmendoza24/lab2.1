@@ -1,3 +1,3 @@
-alert('Testing Alert Message ')
+alert('Dont Open this website if youre not pogi ')
 
 
