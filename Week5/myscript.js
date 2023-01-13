@@ -7,3 +7,5 @@ function myFunction() {
  function myFunction() {
     document.getElementById("Addition").innerHTML = 5 + 6;
  }
+
+ document.getElementById("demo1").innerHTML = "Hello Dolly.";
