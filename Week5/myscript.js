@@ -1,4 +1,4 @@
-alert('Dont Open this website if youre not pogi ')
+alert('Hi! Thanks for visiting my website. ')
 
 function myFunction() {
     document.getElementById("demo").innerHTML = "Paragraph changed.";

@@ -2,20 +2,45 @@
 <html>
 <head>
   <title> My Portfolio </title>
+  <script src="https://kit.fontawesome.com/50fba37455.js" crossorigin="anonymous"></script>
 </head>
 <body> 
 <Style>
+
+ul {
+  list-style-type: none;
+  margin: 40;
+  padding: 0;
+  overflow: hidden;
+  background-color:#333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;  
+}
+
+li a:hover {
+  background-color: #111;
+}
 
 body {
   background-color: HEX #00000081;
 }
 
-h1, h2 {
+h1, h2, h4 {
   color: black;
   text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Fantasy', 'copperplate', cursive;
 }
 
@@ -29,12 +54,34 @@ h1, h2, h3 {
   height: 130px;  
 }
 
-p.round {border: 3px solid black;
+.center-div {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.fa-facebook, .fa-discord, .fa-instagram{
+  color: black;
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+}
+
+p.round {
+  border: 3px solid black;
   border-radius: 15px;
-  padding: 20px;}
+  padding: 20px;
+}
 
 </style>
-<a href="resources.html" target="_blank">Resources</a> 
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="resources.html" target="_blank">Resources</a> </li>
+</ul>
 
   <div style="text-align: center";>
     <img src="Pogi.png" alt="Profile" style="width:200px; border-radius:30%;"/>
@@ -62,8 +109,25 @@ p.round {border: 3px solid black;
   <p>0999999999</p>
  </div>
 
-<script src="myscript.js"></script>
-   <button onclick="window.print()">Print this page</button>
+ <div style="margin-top:20px"></div>
 
+<div class="center-div">
+  <h4>My Socials</h4>
+  <a href="https://www.facebook.com/ANDREWTHENOTORIOUS/" target="facebook">
+    <i class="fa-brands fa-facebook"></i>
+  </a>
+
+  <a href="https://discord.com/users/SOUL#8218" target="discord">
+    <i class="fa-brands fa-discord"></i>
+  </a>
+
+  <a href="https://www.instagram.com/admendoza_x/" target="instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+</div>
+  <div style="margin-top:20px"></div>
+
+<script src="myscript.js"></script>
+  <button onclick="window.print()">Print this page</button>
 </body>
 </html>
