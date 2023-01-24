@@ -21,6 +21,9 @@ function myFunction() {
    ["bananas", 300],
    ["oranges", 200]
  ]);
-
  document.getElementById("fruits").innerHTML = fruits.get("apples");
+
+
+ const letters = new Set(["a","b","c"]);
+document.getElementById("letters").innerHTML = letters.size;
  
