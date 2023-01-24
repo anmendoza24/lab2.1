@@ -8,10 +8,10 @@ function myFunction() {
     document.getElementById("Addition").innerHTML = 5 + 6;
  }
 
- document.getElementById("demo1").innerHTML = "Hello Dolly.";
+ const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
 
-let a, b, c;
-a = 5;
-b = 6;
-c = a + b;
-document.getElementById("demo2").innerHTML = c;
+ let text = "";
+ for (let i = 0; i < cars.length; i++) {
+   text += cars[i] + "<br>";
+   document.getElementById("CARS").innerHTML = text;
+ }
