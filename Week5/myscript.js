@@ -26,4 +26,7 @@ function myFunction() {
 
  const letters = new Set(["a","b","c"]);
 document.getElementById("letters").innerHTML = letters.size;
+
+let car = "Fiat";
+document.getElementById("cars").innerHTML = car;
  
