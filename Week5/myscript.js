@@ -15,3 +15,12 @@ function myFunction() {
    text += cars[i] + "<br>";
    document.getElementById("CARS").innerHTML = text;
  }
+
+ const fruits = new Map([
+   ["apples", 500],
+   ["bananas", 300],
+   ["oranges", 200]
+ ]);
+
+ document.getElementById("fruits").innerHTML = fruits.get("apples");
+ 
