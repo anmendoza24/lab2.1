@@ -134,6 +134,7 @@ p.round {
 
 <script src="myscript.js"></script>
   <button onclick="window.print()">Print this page</button>
+//testing
 
   <?php
 // define variables and set to empty values
