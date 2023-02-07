@@ -131,10 +131,6 @@ p.round {
 </div>
   <div style="margin-top:20px"></div>
   <button onclick="this.innerHTML=Date()">The time is?</button>
-  <p id="CARS"></p>
-  <p id="fruits"></p>
-  <p id="letters"></p>
-  <p id="cars"></p>
 
 <script src="myscript.js"></script>
   <button onclick="window.print()">Print this page</button>
