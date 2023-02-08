@@ -191,12 +191,6 @@ echo $gender;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
-  $name = htmlspecialchars($_POST["name"]);
-  $email = htmlspecialchars($_POST["email"]);
-  $website = htmlspecialchars($_POST["website"]);
-  $comment = htmlspecialchars($_POST["comment"]);
-  $gender = htmlspecialchars($_POST["gender"]);
-  
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -209,7 +203,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	die("Connection failed: " . $conn->connect_error);
 	}
 	
-	$sql = "INSERT INTO MyGuests (name,email,website,comment,gender)
+	$sql = "INSERT INTO myguests (name,email,website,comment,gender)
 	VALUES ('$name','$email', '$website', '$comment', '$gender')";
 	
 	if ($conn->query($sql) === TRUE) {
