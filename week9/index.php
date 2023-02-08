@@ -191,6 +191,12 @@ echo $gender;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
+  $name = htmlspecialchars($_POST["name"]);
+  $email = htmlspecialchars($_POST["email"]);
+  $website = htmlspecialchars($_POST["website"]);
+  $comment = htmlspecialchars($_POST["comment"]);
+  $gender = htmlspecialchars($_POST["gender"]);
+  
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
