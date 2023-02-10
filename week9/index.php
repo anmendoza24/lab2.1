@@ -203,7 +203,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	die("Connection failed: " . $conn->connect_error);
 	}
 	
-	$sql = "INSERT INTO myguests (fname,email,website,comment,gender)
+	$sql = "INSERT INTO anmendoza_myguests (fname,email,website,comment,gender)
 	VALUES ('$name','$email', '$website', '$comment', '$gender')";
 	
 	if ($conn->query($sql) === TRUE) {
