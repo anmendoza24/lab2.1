@@ -192,9 +192,9 @@ echo $gender;
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
 {
 	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "mydbwebprogmi211";
+	$username = "webprogmi211";
+	$password = "webprogmi211";
+	$dbname = "webprogmi211";
 	
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
